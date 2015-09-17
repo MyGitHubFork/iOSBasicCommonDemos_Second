@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#warning 别人赞助+自己修改而来。
+
 @interface AppDelegate ()
 
 @end

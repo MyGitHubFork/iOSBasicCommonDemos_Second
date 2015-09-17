@@ -1,2 +1,1 @@
-# The-Demo-Of-UITableView
-UITableView的各种操作Demo
+#私人学习过程中的一些Demo。或有博文地址、或来自书本学习、或有自己总结。私有收藏、请慎重使用。
