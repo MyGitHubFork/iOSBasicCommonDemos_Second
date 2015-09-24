@@ -19,6 +19,65 @@ static const unsigned componentFlags = (NSYearCalendarUnit| NSMonthCalendarUnit 
 
 @implementation NSDate (Utilities)
 
+//我添加的
++(NSDictionary *)getDateInfoByDate:(NSDate *)date{
+    //NSArray * arrWeek=[NSArray arrayWithObjects:@"星期日",@"星期一",@"星期二",@"星期三",@"星期四",@"星期五",@"星期六", nil];
+    
+    //NSDate *date = [NSDate date];
+    
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    
+    NSDateComponents *comps = [[NSDateComponents alloc] init];
+    
+    NSInteger unitFlags = NSYearCalendarUnit |
+    
+    NSMonthCalendarUnit |
+    
+    NSDayCalendarUnit |
+    
+    NSWeekdayCalendarUnit |
+    
+    NSHourCalendarUnit |
+    
+    NSMinuteCalendarUnit |
+    
+    NSSecondCalendarUnit;
+    
+    comps = [calendar components:unitFlags fromDate:date];
+    
+    NSInteger weekDayChina;
+    //一个周的第五天
+    NSInteger week = [comps weekday];
+    if (week == 1) {
+        weekDayChina = 7;
+    }else{
+        weekDayChina = week - 1;
+    }
+    NSInteger year=[comps year];
+    
+    NSInteger month = [comps month];
+    
+    NSInteger day = [comps day];
+    
+    NSInteger hour =[comps hour];;
+    NSInteger minute = [comps minute];
+    NSInteger second = [comps second];
+    
+    NSDictionary *dic = @{
+                          @"year":@(year),
+                          @"month":@(month),
+                          @"day":@(day),
+                          @"hour":@(hour),
+                          @"minute":@(minute),
+                          @"second":@(second),
+                          @"weekDayChina":@(weekDayChina)
+                          };
+    return dic;
+    
+}
+
+
+
 // Courtesy of Lukasz Margielewski
 // Updated via Holger Haenisch
 + (NSCalendar *) currentCalendar

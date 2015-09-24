@@ -13,6 +13,10 @@
 #define D_YEAR		31556926
 
 @interface NSDate (Utilities)
+
+//我添加的
++(NSDictionary *)getDateInfoByDate:(NSDate *)date;
+
 + (NSCalendar *) currentCalendar; // avoid bottlenecks
 
 // Relative dates from the current date

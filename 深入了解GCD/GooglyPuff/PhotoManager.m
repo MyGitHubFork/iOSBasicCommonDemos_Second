@@ -26,6 +26,7 @@
         NSLog(@"Singleton has memory address at: %@", sharedPhotoManager);
         [NSThread sleepForTimeInterval:2];
         sharedPhotoManager->_photosArray = [NSMutableArray array];
+        sharedPhotoManager.concurrentPhotoQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     });
     return sharedPhotoManager;
 }
