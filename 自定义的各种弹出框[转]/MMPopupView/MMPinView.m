@@ -148,7 +148,7 @@
         
         self.tfPin = [UITextField new];
         [self addSubview:self.tfPin];
-        self.tfPin.keyboardType = UIKeyboardTypeNumberPad;
+        self.tfPin.keyboardType = UIKeyboardTypePhonePad;
         [self sendSubviewToBack:self.tfPin];
         
         [self startCountDown];

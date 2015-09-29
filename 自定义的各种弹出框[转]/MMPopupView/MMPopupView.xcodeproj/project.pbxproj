@@ -50,8 +50,8 @@
 		ED1E99581B9BEE7D0093760A /* MMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAlertView.m; path = ../Classes/MMAlertView.m; sourceTree = "<group>"; };
 		ED1E995A1B9BEE8F0093760A /* MMSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMSheetView.h; path = ../Classes/MMSheetView.h; sourceTree = "<group>"; };
 		ED1E995B1B9BEE8F0093760A /* MMSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMSheetView.m; path = ../Classes/MMSheetView.m; sourceTree = "<group>"; };
-		ED1E995D1B9C22F50093760A /* MMPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMPinView.h; path = ../MMPinView.h; sourceTree = "<group>"; };
-		ED1E995E1B9C22F50093760A /* MMPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMPinView.m; path = ../MMPinView.m; sourceTree = "<group>"; };
+		ED1E995D1B9C22F50093760A /* MMPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPinView.h; sourceTree = "<group>"; };
+		ED1E995E1B9C22F50093760A /* MMPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPinView.m; sourceTree = "<group>"; };
 		EDB365101B9D3323003A0B05 /* MMDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDateView.h; sourceTree = SOURCE_ROOT; };
 		EDB365111B9D3323003A0B05 /* MMDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDateView.m; sourceTree = SOURCE_ROOT; };
 		FF8DF09A03ED96B87C4FB5EA /* Pods-MMPopupView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMPopupView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMPopupView/Pods-MMPopupView.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,10 +112,6 @@
 				ED1E99361B9BD5C20093760A /* AppDelegate.m */,
 				ED1E99381B9BD5C20093760A /* ViewController.h */,
 				ED1E99391B9BD5C20093760A /* ViewController.m */,
-				ED1E995D1B9C22F50093760A /* MMPinView.h */,
-				ED1E995E1B9C22F50093760A /* MMPinView.m */,
-				EDB365101B9D3323003A0B05 /* MMDateView.h */,
-				EDB365111B9D3323003A0B05 /* MMDateView.m */,
 				ED1E993B1B9BD5C20093760A /* Main.storyboard */,
 				ED1E993E1B9BD5C20093760A /* Assets.xcassets */,
 				ED1E99401B9BD5C20093760A /* LaunchScreen.storyboard */,
@@ -136,6 +132,10 @@
 		ED1E99491B9BD8340093760A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ED1E995D1B9C22F50093760A /* MMPinView.h */,
+				ED1E995E1B9C22F50093760A /* MMPinView.m */,
+				EDB365101B9D3323003A0B05 /* MMDateView.h */,
+				EDB365111B9D3323003A0B05 /* MMDateView.m */,
 				ED1E994A1B9BD8520093760A /* MMPopupView.h */,
 				ED1E994B1B9BD8520093760A /* MMPopupView.m */,
 				ED1E994D1B9BDAB80093760A /* MMPopupWindow.h */,
