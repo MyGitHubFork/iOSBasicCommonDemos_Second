@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0317C71C0E8E740082C6CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317C61C0E8E740082C6CE /* main.m */; };
+		4D0317CA1C0E8E740082C6CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317C91C0E8E740082C6CE /* AppDelegate.m */; };
+		4D0317CD1C0E8E740082C6CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317CC1C0E8E740082C6CE /* ViewController.m */; };
+		4D0317D01C0E8E740082C6CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0317CE1C0E8E740082C6CE /* Main.storyboard */; };
+		4D0317D21C0E8E740082C6CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0317D11C0E8E740082C6CE /* Assets.xcassets */; };
+		4D0317D51C0E8E740082C6CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0317D31C0E8E740082C6CE /* LaunchScreen.storyboard */; };
+		4D0317E01C0E8E750082C6CE /* UICollectinView______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317DF1C0E8E750082C6CE /* UICollectinView______Tests.m */; };
+		4D0317EB1C0E8E750082C6CE /* UICollectinView______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317EA1C0E8E750082C6CE /* UICollectinView______UITests.m */; };
+		4D0317FE1C0E8E960082C6CE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317F91C0E8E960082C6CE /* MyCell.m */; };
+		4D0317FF1C0E8E960082C6CE /* MyFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317FB1C0E8E960082C6CE /* MyFooterView.m */; };
+		4D0318001C0E8E960082C6CE /* MyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0317FD1C0E8E960082C6CE /* MyHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D0317DC1C0E8E750082C6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0317BA1C0E8E740082C6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0317C11C0E8E740082C6CE;
+			remoteInfo = "UICollectinView的纯代码使用";
+		};
+		4D0317E71C0E8E750082C6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D0317BA1C0E8E740082C6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D0317C11C0E8E740082C6CE;
+			remoteInfo = "UICollectinView的纯代码使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0317C21C0E8E740082C6CE /* UICollectinView的纯代码使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectinView的纯代码使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0317C61C0E8E740082C6CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D0317C81C0E8E740082C6CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D0317C91C0E8E740082C6CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D0317CB1C0E8E740082C6CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D0317CC1C0E8E740082C6CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D0317CF1C0E8E740082C6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D0317D11C0E8E740082C6CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D0317D41C0E8E740082C6CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D0317D61C0E8E740082C6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0317DB1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectinView的纯代码使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0317DF1C0E8E750082C6CE /* UICollectinView______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectinView______Tests.m"; sourceTree = "<group>"; };
+		4D0317E11C0E8E750082C6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0317E61C0E8E750082C6CE /* UICollectinView的纯代码使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectinView的纯代码使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0317EA1C0E8E750082C6CE /* UICollectinView______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectinView______UITests.m"; sourceTree = "<group>"; };
+		4D0317EC1C0E8E750082C6CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0317F81C0E8E960082C6CE /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		4D0317F91C0E8E960082C6CE /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		4D0317FA1C0E8E960082C6CE /* MyFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFooterView.h; sourceTree = "<group>"; };
+		4D0317FB1C0E8E960082C6CE /* MyFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFooterView.m; sourceTree = "<group>"; };
+		4D0317FC1C0E8E960082C6CE /* MyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderView.h; sourceTree = "<group>"; };
+		4D0317FD1C0E8E960082C6CE /* MyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0317BF1C0E8E740082C6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317D81C0E8E750082C6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317E31C0E8E750082C6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0317B91C0E8E740082C6CE = {
+			isa = PBXGroup;
+			children = (
+				4D0317C41C0E8E740082C6CE /* UICollectinView的纯代码使用 */,
+				4D0317DE1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests */,
+				4D0317E91C0E8E750082C6CE /* UICollectinView的纯代码使用UITests */,
+				4D0317C31C0E8E740082C6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0317C31C0E8E740082C6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0317C21C0E8E740082C6CE /* UICollectinView的纯代码使用.app */,
+				4D0317DB1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests.xctest */,
+				4D0317E61C0E8E750082C6CE /* UICollectinView的纯代码使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0317C41C0E8E740082C6CE /* UICollectinView的纯代码使用 */ = {
+			isa = PBXGroup;
+			children = (
+				4D0317F81C0E8E960082C6CE /* MyCell.h */,
+				4D0317F91C0E8E960082C6CE /* MyCell.m */,
+				4D0317FA1C0E8E960082C6CE /* MyFooterView.h */,
+				4D0317FB1C0E8E960082C6CE /* MyFooterView.m */,
+				4D0317FC1C0E8E960082C6CE /* MyHeaderView.h */,
+				4D0317FD1C0E8E960082C6CE /* MyHeaderView.m */,
+				4D0317C81C0E8E740082C6CE /* AppDelegate.h */,
+				4D0317C91C0E8E740082C6CE /* AppDelegate.m */,
+				4D0317CB1C0E8E740082C6CE /* ViewController.h */,
+				4D0317CC1C0E8E740082C6CE /* ViewController.m */,
+				4D0317CE1C0E8E740082C6CE /* Main.storyboard */,
+				4D0317D11C0E8E740082C6CE /* Assets.xcassets */,
+				4D0317D31C0E8E740082C6CE /* LaunchScreen.storyboard */,
+				4D0317D61C0E8E740082C6CE /* Info.plist */,
+				4D0317C51C0E8E740082C6CE /* Supporting Files */,
+			);
+			path = "UICollectinView的纯代码使用";
+			sourceTree = "<group>";
+		};
+		4D0317C51C0E8E740082C6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D0317C61C0E8E740082C6CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D0317DE1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0317DF1C0E8E750082C6CE /* UICollectinView______Tests.m */,
+				4D0317E11C0E8E750082C6CE /* Info.plist */,
+			);
+			path = "UICollectinView的纯代码使用Tests";
+			sourceTree = "<group>";
+		};
+		4D0317E91C0E8E750082C6CE /* UICollectinView的纯代码使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D0317EA1C0E8E750082C6CE /* UICollectinView______UITests.m */,
+				4D0317EC1C0E8E750082C6CE /* Info.plist */,
+			);
+			path = "UICollectinView的纯代码使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0317C11C0E8E740082C6CE /* UICollectinView的纯代码使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0317EF1C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用" */;
+			buildPhases = (
+				4D0317BE1C0E8E740082C6CE /* Sources */,
+				4D0317BF1C0E8E740082C6CE /* Frameworks */,
+				4D0317C01C0E8E740082C6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UICollectinView的纯代码使用";
+			productName = "UICollectinView的纯代码使用";
+			productReference = 4D0317C21C0E8E740082C6CE /* UICollectinView的纯代码使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D0317DA1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0317F21C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用Tests" */;
+			buildPhases = (
+				4D0317D71C0E8E750082C6CE /* Sources */,
+				4D0317D81C0E8E750082C6CE /* Frameworks */,
+				4D0317D91C0E8E750082C6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0317DD1C0E8E750082C6CE /* PBXTargetDependency */,
+			);
+			name = "UICollectinView的纯代码使用Tests";
+			productName = "UICollectinView的纯代码使用Tests";
+			productReference = 4D0317DB1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D0317E51C0E8E750082C6CE /* UICollectinView的纯代码使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0317F51C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用UITests" */;
+			buildPhases = (
+				4D0317E21C0E8E750082C6CE /* Sources */,
+				4D0317E31C0E8E750082C6CE /* Frameworks */,
+				4D0317E41C0E8E750082C6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D0317E81C0E8E750082C6CE /* PBXTargetDependency */,
+			);
+			name = "UICollectinView的纯代码使用UITests";
+			productName = "UICollectinView的纯代码使用UITests";
+			productReference = 4D0317E61C0E8E750082C6CE /* UICollectinView的纯代码使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0317BA1C0E8E740082C6CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D0317C11C0E8E740082C6CE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4D0317DA1C0E8E750082C6CE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4D0317C11C0E8E740082C6CE;
+					};
+					4D0317E51C0E8E750082C6CE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4D0317C11C0E8E740082C6CE;
+					};
+				};
+			};
+			buildConfigurationList = 4D0317BD1C0E8E740082C6CE /* Build configuration list for PBXProject "UICollectinView的纯代码使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0317B91C0E8E740082C6CE;
+			productRefGroup = 4D0317C31C0E8E740082C6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0317C11C0E8E740082C6CE /* UICollectinView的纯代码使用 */,
+				4D0317DA1C0E8E750082C6CE /* UICollectinView的纯代码使用Tests */,
+				4D0317E51C0E8E750082C6CE /* UICollectinView的纯代码使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0317C01C0E8E740082C6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0317D51C0E8E740082C6CE /* LaunchScreen.storyboard in Resources */,
+				4D0317D21C0E8E740082C6CE /* Assets.xcassets in Resources */,
+				4D0317D01C0E8E740082C6CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317D91C0E8E750082C6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317E41C0E8E750082C6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0317BE1C0E8E740082C6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0317CD1C0E8E740082C6CE /* ViewController.m in Sources */,
+				4D0317FE1C0E8E960082C6CE /* MyCell.m in Sources */,
+				4D0317CA1C0E8E740082C6CE /* AppDelegate.m in Sources */,
+				4D0318001C0E8E960082C6CE /* MyHeaderView.m in Sources */,
+				4D0317FF1C0E8E960082C6CE /* MyFooterView.m in Sources */,
+				4D0317C71C0E8E740082C6CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317D71C0E8E750082C6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0317E01C0E8E750082C6CE /* UICollectinView______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0317E21C0E8E750082C6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0317EB1C0E8E750082C6CE /* UICollectinView______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D0317DD1C0E8E750082C6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0317C11C0E8E740082C6CE /* UICollectinView的纯代码使用 */;
+			targetProxy = 4D0317DC1C0E8E750082C6CE /* PBXContainerItemProxy */;
+		};
+		4D0317E81C0E8E750082C6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D0317C11C0E8E740082C6CE /* UICollectinView的纯代码使用 */;
+			targetProxy = 4D0317E71C0E8E750082C6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D0317CE1C0E8E740082C6CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0317CF1C0E8E740082C6CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0317D31C0E8E740082C6CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0317D41C0E8E740082C6CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0317ED1C0E8E750082C6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D0317EE1C0E8E750082C6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0317F01C0E8E750082C6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectinView的纯代码使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D0317F11C0E8E750082C6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectinView的纯代码使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D0317F31C0E8E750082C6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UICollectinView的纯代码使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectinView的纯代码使用.app/UICollectinView的纯代码使用";
+			};
+			name = Debug;
+		};
+		4D0317F41C0E8E750082C6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UICollectinView的纯代码使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectinView的纯代码使用.app/UICollectinView的纯代码使用";
+			};
+			name = Release;
+		};
+		4D0317F61C0E8E750082C6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UICollectinView的纯代码使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UICollectinView的纯代码使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D0317F71C0E8E750082C6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UICollectinView的纯代码使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangchengd.UICollectinView------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UICollectinView的纯代码使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0317BD1C0E8E740082C6CE /* Build configuration list for PBXProject "UICollectinView的纯代码使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0317ED1C0E8E750082C6CE /* Debug */,
+				4D0317EE1C0E8E750082C6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0317EF1C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0317F01C0E8E750082C6CE /* Debug */,
+				4D0317F11C0E8E750082C6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0317F21C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0317F31C0E8E750082C6CE /* Debug */,
+				4D0317F41C0E8E750082C6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D0317F51C0E8E750082C6CE /* Build configuration list for PBXNativeTarget "UICollectinView的纯代码使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0317F61C0E8E750082C6CE /* Debug */,
+				4D0317F71C0E8E750082C6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0317BA1C0E8E740082C6CE /* Project object */;
+}
