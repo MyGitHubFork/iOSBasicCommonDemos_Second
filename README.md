@@ -4,4 +4,7 @@
 //===========自定义各种弹出框===========
 参考博客地址：[详解开源项目：MMPopupView（弹出框组件）](http://www.cocoachina.com/ios/20150929/13417.html)
 
+![image](https://github.com/huang303513/The-Demo-Of-Common-Study/blob/master/screenShoot/Untitled.gif)
+
+
 ![image](https://github.com/huang303513/The-Demo-Of-Common-Study/blob/master/screenShoot/0.jpg)
