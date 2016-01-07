@@ -8,3 +8,5 @@
 
 
 ![image](https://github.com/huang303513/The-Demo-Of-Common-Study/blob/master/screenShoot/0.jpg)
+
+[自定义CollectionView布局的原理以及解释](http://www.jianshu.com/p/2a62e44d0034)
