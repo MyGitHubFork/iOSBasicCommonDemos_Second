@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A230B3B41AF5DA3700347C46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A230B3B31AF5DA3700347C46 /* main.m */; };
+		A230B3B71AF5DA3700347C46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A230B3B61AF5DA3700347C46 /* AppDelegate.m */; };
+		A230B3BF1AF5DA3700347C46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A230B3BE1AF5DA3700347C46 /* Images.xcassets */; };
+		A230B3C21AF5DA3700347C46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A230B3C01AF5DA3700347C46 /* LaunchScreen.xib */; };
+		A230B3DA1AF5DABE00347C46 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A230B3D81AF5DABE00347C46 /* RootViewController.m */; };
+		A230B3DB1AF5DABE00347C46 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A230B3D91AF5DABE00347C46 /* RootViewController.xib */; };
+		A230B3DF1AF5DB3900347C46 /* JKSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A230B3DE1AF5DB3900347C46 /* JKSearchBar.m */; };
+		A230B3E11AF5EC5400347C46 /* JKSearchBar_ICON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A230B3E01AF5EC5400347C46 /* JKSearchBar_ICON@2x.png */; };
+		A230B3E81AF5FD7800347C46 /* JKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A230B3E71AF5FD7800347C46 /* JKPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A230B3AE1AF5DA3700347C46 /* JKSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230B3B21AF5DA3700347C46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A230B3B31AF5DA3700347C46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A230B3B51AF5DA3700347C46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A230B3B61AF5DA3700347C46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A230B3BE1AF5DA3700347C46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A230B3C11AF5DA3700347C46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A230B3D71AF5DABE00347C46 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A230B3D81AF5DABE00347C46 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A230B3D91AF5DABE00347C46 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A230B3DD1AF5DB3900347C46 /* JKSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSearchBar.h; sourceTree = "<group>"; };
+		A230B3DE1AF5DB3900347C46 /* JKSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSearchBar.m; sourceTree = "<group>"; };
+		A230B3E01AF5EC5400347C46 /* JKSearchBar_ICON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JKSearchBar_ICON@2x.png"; sourceTree = "<group>"; };
+		A230B3E61AF5FD7800347C46 /* JKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPickerView.h; sourceTree = "<group>"; };
+		A230B3E71AF5FD7800347C46 /* JKPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A230B3AB1AF5DA3700347C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A230B3A51AF5DA3700347C46 = {
+			isa = PBXGroup;
+			children = (
+				A230B3B01AF5DA3700347C46 /* JKSearchBar */,
+				A230B3AF1AF5DA3700347C46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A230B3AF1AF5DA3700347C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A230B3AE1AF5DA3700347C46 /* JKSearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A230B3B01AF5DA3700347C46 /* JKSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				A230B3E51AF5FD7100347C46 /* JKPickerView */,
+				A230B3DC1AF5DB2C00347C46 /* JKSearchBar */,
+				A230B3B51AF5DA3700347C46 /* AppDelegate.h */,
+				A230B3B61AF5DA3700347C46 /* AppDelegate.m */,
+				A230B3D71AF5DABE00347C46 /* RootViewController.h */,
+				A230B3D81AF5DABE00347C46 /* RootViewController.m */,
+				A230B3D91AF5DABE00347C46 /* RootViewController.xib */,
+				A230B3BE1AF5DA3700347C46 /* Images.xcassets */,
+				A230B3C01AF5DA3700347C46 /* LaunchScreen.xib */,
+				A230B3B11AF5DA3700347C46 /* Supporting Files */,
+			);
+			path = JKSearchBar;
+			sourceTree = "<group>";
+		};
+		A230B3B11AF5DA3700347C46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A230B3B21AF5DA3700347C46 /* Info.plist */,
+				A230B3B31AF5DA3700347C46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A230B3DC1AF5DB2C00347C46 /* JKSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				A230B3E01AF5EC5400347C46 /* JKSearchBar_ICON@2x.png */,
+				A230B3DD1AF5DB3900347C46 /* JKSearchBar.h */,
+				A230B3DE1AF5DB3900347C46 /* JKSearchBar.m */,
+			);
+			path = JKSearchBar;
+			sourceTree = "<group>";
+		};
+		A230B3E51AF5FD7100347C46 /* JKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A230B3E61AF5FD7800347C46 /* JKPickerView.h */,
+				A230B3E71AF5FD7800347C46 /* JKPickerView.m */,
+			);
+			path = JKPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A230B3AD1AF5DA3700347C46 /* JKSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230B3D11AF5DA3700347C46 /* Build configuration list for PBXNativeTarget "JKSearchBar" */;
+			buildPhases = (
+				A230B3AA1AF5DA3700347C46 /* Sources */,
+				A230B3AB1AF5DA3700347C46 /* Frameworks */,
+				A230B3AC1AF5DA3700347C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSearchBar;
+			productName = JKSearchBar;
+			productReference = A230B3AE1AF5DA3700347C46 /* JKSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A230B3A61AF5DA3700347C46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					A230B3AD1AF5DA3700347C46 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = A230B3A91AF5DA3700347C46 /* Build configuration list for PBXProject "JKSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A230B3A51AF5DA3700347C46;
+			productRefGroup = A230B3AF1AF5DA3700347C46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A230B3AD1AF5DA3700347C46 /* JKSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A230B3AC1AF5DA3700347C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230B3C21AF5DA3700347C46 /* LaunchScreen.xib in Resources */,
+				A230B3BF1AF5DA3700347C46 /* Images.xcassets in Resources */,
+				A230B3DB1AF5DABE00347C46 /* RootViewController.xib in Resources */,
+				A230B3E11AF5EC5400347C46 /* JKSearchBar_ICON@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A230B3AA1AF5DA3700347C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230B3DF1AF5DB3900347C46 /* JKSearchBar.m in Sources */,
+				A230B3B71AF5DA3700347C46 /* AppDelegate.m in Sources */,
+				A230B3B41AF5DA3700347C46 /* main.m in Sources */,
+				A230B3DA1AF5DABE00347C46 /* RootViewController.m in Sources */,
+				A230B3E81AF5FD7800347C46 /* JKPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A230B3C01AF5DA3700347C46 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A230B3C11AF5DA3700347C46 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A230B3CF1AF5DA3700347C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A230B3D01AF5DA3700347C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A230B3D21AF5DA3700347C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A230B3D31AF5DA3700347C46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A230B3A91AF5DA3700347C46 /* Build configuration list for PBXProject "JKSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230B3CF1AF5DA3700347C46 /* Debug */,
+				A230B3D01AF5DA3700347C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230B3D11AF5DA3700347C46 /* Build configuration list for PBXNativeTarget "JKSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230B3D21AF5DA3700347C46 /* Debug */,
+				A230B3D31AF5DA3700347C46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A230B3A61AF5DA3700347C46 /* Project object */;
+}

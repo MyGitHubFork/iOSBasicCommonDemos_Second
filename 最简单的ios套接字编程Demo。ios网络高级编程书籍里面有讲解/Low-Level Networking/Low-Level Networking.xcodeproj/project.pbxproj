@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A04ACA1815A520B600F4468C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04ACA1715A520B600F4468C /* UIKit.framework */; };
+		A04ACA1A15A520B600F4468C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04ACA1915A520B600F4468C /* Foundation.framework */; };
+		A04ACA1C15A520B600F4468C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04ACA1B15A520B600F4468C /* CoreGraphics.framework */; };
+		A04ACA2215A520B600F4468C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A04ACA2015A520B600F4468C /* InfoPlist.strings */; };
+		A04ACA2415A520B600F4468C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A04ACA2315A520B600F4468C /* main.m */; };
+		A04ACA2815A520B600F4468C /* LLNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A04ACA2715A520B600F4468C /* LLNAppDelegate.m */; };
+		A04ACA2B15A520B600F4468C /* LLNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A04ACA2A15A520B600F4468C /* LLNViewController.m */; };
+		A04ACA2E15A520B600F4468C /* LLNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A04ACA2C15A520B600F4468C /* LLNViewController.xib */; };
+		A08E8BDE15B1F5EB009F59F5 /* LLNNSStreamController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08E8BDD15B1F5EB009F59F5 /* LLNNSStreamController.m */; };
+		A08E8BE515B20AD0009F59F5 /* NSStream+StreamsToHost.m in Sources */ = {isa = PBXBuildFile; fileRef = A08E8BE415B20AD0009F59F5 /* NSStream+StreamsToHost.m */; };
+		A09CDC8E15AA3CFC0036AC53 /* LLNBSDSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09CDC8D15AA3CFC0036AC53 /* LLNBSDSocketController.m */; };
+		A09CDC9215AA3F210036AC53 /* LLNNetworkingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A09CDC9115AA3F200036AC53 /* LLNNetworkingResult.m */; };
+		A09CDCA015ABD1F00036AC53 /* LLNCFNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09CDC9F15ABD1F00036AC53 /* LLNCFNetworkController.m */; };
+		A09CDCA415ABD2430036AC53 /* LLNNetworkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A09CDCA315ABD2430036AC53 /* LLNNetworkingController.m */; };
+		A0C089AC15B648C7009EE2C9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C089A815B648C7009EE2C9 /* Icon@2x.png */; };
+		A0C089AE15B648C7009EE2C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C089AA15B648C7009EE2C9 /* Icon.png */; };
+		DDE90B031B47873A00EBA38A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B001B47873A00EBA38A /* Default-568h@2x.png */; };
+		DDE90B041B47873A00EBA38A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B011B47873A00EBA38A /* Default.png */; };
+		DDE90B051B47873A00EBA38A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B021B47873A00EBA38A /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A04ACA1315A520B600F4468C /* Low-Level Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Low-Level Networking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04ACA1715A520B600F4468C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A04ACA1915A520B600F4468C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A04ACA1B15A520B600F4468C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A04ACA1F15A520B600F4468C /* Low-Level Networking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Low-Level Networking-Info.plist"; sourceTree = "<group>"; };
+		A04ACA2115A520B600F4468C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A04ACA2315A520B600F4468C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A04ACA2515A520B600F4468C /* Low-Level Networking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Low-Level Networking-Prefix.pch"; sourceTree = "<group>"; };
+		A04ACA2615A520B600F4468C /* LLNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNAppDelegate.h; sourceTree = "<group>"; };
+		A04ACA2715A520B600F4468C /* LLNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNAppDelegate.m; sourceTree = "<group>"; };
+		A04ACA2915A520B600F4468C /* LLNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNViewController.h; sourceTree = "<group>"; };
+		A04ACA2A15A520B600F4468C /* LLNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNViewController.m; sourceTree = "<group>"; };
+		A04ACA2D15A520B600F4468C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LLNViewController.xib; sourceTree = "<group>"; };
+		A08E8BDC15B1F5EB009F59F5 /* LLNNSStreamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNNSStreamController.h; sourceTree = "<group>"; };
+		A08E8BDD15B1F5EB009F59F5 /* LLNNSStreamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNNSStreamController.m; sourceTree = "<group>"; };
+		A08E8BE315B20AD0009F59F5 /* NSStream+StreamsToHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+StreamsToHost.h"; sourceTree = "<group>"; };
+		A08E8BE415B20AD0009F59F5 /* NSStream+StreamsToHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+StreamsToHost.m"; sourceTree = "<group>"; };
+		A09CDC8C15AA3CFC0036AC53 /* LLNBSDSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNBSDSocketController.h; sourceTree = "<group>"; };
+		A09CDC8D15AA3CFC0036AC53 /* LLNBSDSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNBSDSocketController.m; sourceTree = "<group>"; };
+		A09CDC9015AA3F200036AC53 /* LLNNetworkingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNNetworkingResult.h; sourceTree = "<group>"; };
+		A09CDC9115AA3F200036AC53 /* LLNNetworkingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNNetworkingResult.m; sourceTree = "<group>"; };
+		A09CDC9E15ABD1F00036AC53 /* LLNCFNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNCFNetworkController.h; sourceTree = "<group>"; };
+		A09CDC9F15ABD1F00036AC53 /* LLNCFNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNCFNetworkController.m; sourceTree = "<group>"; };
+		A09CDCA215ABD2430036AC53 /* LLNNetworkingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNNetworkingController.h; sourceTree = "<group>"; };
+		A09CDCA315ABD2430036AC53 /* LLNNetworkingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNNetworkingController.m; sourceTree = "<group>"; };
+		A0C089A815B648C7009EE2C9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A0C089AA15B648C7009EE2C9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DDE90B001B47873A00EBA38A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDE90B011B47873A00EBA38A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDE90B021B47873A00EBA38A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04ACA1015A520B600F4468C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04ACA1815A520B600F4468C /* UIKit.framework in Frameworks */,
+				A04ACA1A15A520B600F4468C /* Foundation.framework in Frameworks */,
+				A04ACA1C15A520B600F4468C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04ACA0815A520B600F4468C = {
+			isa = PBXGroup;
+			children = (
+				A04ACA1D15A520B600F4468C /* Low-Level Networking */,
+				A04ACA1615A520B600F4468C /* Frameworks */,
+				A04ACA1415A520B600F4468C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04ACA1415A520B600F4468C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04ACA1315A520B600F4468C /* Low-Level Networking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04ACA1615A520B600F4468C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04ACA1715A520B600F4468C /* UIKit.framework */,
+				A04ACA1915A520B600F4468C /* Foundation.framework */,
+				A04ACA1B15A520B600F4468C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04ACA1D15A520B600F4468C /* Low-Level Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A04ACA2615A520B600F4468C /* LLNAppDelegate.h */,
+				A04ACA2715A520B600F4468C /* LLNAppDelegate.m */,
+				A04ACA2915A520B600F4468C /* LLNViewController.h */,
+				A04ACA2A15A520B600F4468C /* LLNViewController.m */,
+				A04ACA2C15A520B600F4468C /* LLNViewController.xib */,
+				A08E8BDA15B1F548009F59F5 /* Networking */,
+				A04ACA1E15A520B600F4468C /* Supporting Files */,
+			);
+			path = "Low-Level Networking";
+			sourceTree = "<group>";
+		};
+		A04ACA1E15A520B600F4468C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B001B47873A00EBA38A /* Default-568h@2x.png */,
+				DDE90B011B47873A00EBA38A /* Default.png */,
+				DDE90B021B47873A00EBA38A /* Default@2x.png */,
+				A0C089AA15B648C7009EE2C9 /* Icon.png */,
+				A0C089A815B648C7009EE2C9 /* Icon@2x.png */,
+				A04ACA1F15A520B600F4468C /* Low-Level Networking-Info.plist */,
+				A04ACA2015A520B600F4468C /* InfoPlist.strings */,
+				A04ACA2315A520B600F4468C /* main.m */,
+				A04ACA2515A520B600F4468C /* Low-Level Networking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A08E8BDA15B1F548009F59F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A09CDC9015AA3F200036AC53 /* LLNNetworkingResult.h */,
+				A09CDC9115AA3F200036AC53 /* LLNNetworkingResult.m */,
+				A08E8BE315B20AD0009F59F5 /* NSStream+StreamsToHost.h */,
+				A08E8BE415B20AD0009F59F5 /* NSStream+StreamsToHost.m */,
+				A09CDCA215ABD2430036AC53 /* LLNNetworkingController.h */,
+				A09CDCA315ABD2430036AC53 /* LLNNetworkingController.m */,
+				A09CDC8C15AA3CFC0036AC53 /* LLNBSDSocketController.h */,
+				A09CDC8D15AA3CFC0036AC53 /* LLNBSDSocketController.m */,
+				A09CDC9E15ABD1F00036AC53 /* LLNCFNetworkController.h */,
+				A09CDC9F15ABD1F00036AC53 /* LLNCFNetworkController.m */,
+				A08E8BDC15B1F5EB009F59F5 /* LLNNSStreamController.h */,
+				A08E8BDD15B1F5EB009F59F5 /* LLNNSStreamController.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04ACA1215A520B600F4468C /* Low-Level Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04ACA3115A520B600F4468C /* Build configuration list for PBXNativeTarget "Low-Level Networking" */;
+			buildPhases = (
+				A04ACA0F15A520B600F4468C /* Sources */,
+				A04ACA1015A520B600F4468C /* Frameworks */,
+				A04ACA1115A520B600F4468C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Low-Level Networking";
+			productName = "Low-Level Networking";
+			productReference = A04ACA1315A520B600F4468C /* Low-Level Networking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04ACA0A15A520B600F4468C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LLN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "John Szumski";
+			};
+			buildConfigurationList = A04ACA0D15A520B600F4468C /* Build configuration list for PBXProject "Low-Level Networking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A04ACA0815A520B600F4468C;
+			productRefGroup = A04ACA1415A520B600F4468C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04ACA1215A520B600F4468C /* Low-Level Networking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04ACA1115A520B600F4468C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04ACA2215A520B600F4468C /* InfoPlist.strings in Resources */,
+				DDE90B041B47873A00EBA38A /* Default.png in Resources */,
+				A04ACA2E15A520B600F4468C /* LLNViewController.xib in Resources */,
+				A0C089AC15B648C7009EE2C9 /* Icon@2x.png in Resources */,
+				DDE90B031B47873A00EBA38A /* Default-568h@2x.png in Resources */,
+				DDE90B051B47873A00EBA38A /* Default@2x.png in Resources */,
+				A0C089AE15B648C7009EE2C9 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04ACA0F15A520B600F4468C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04ACA2415A520B600F4468C /* main.m in Sources */,
+				A04ACA2815A520B600F4468C /* LLNAppDelegate.m in Sources */,
+				A04ACA2B15A520B600F4468C /* LLNViewController.m in Sources */,
+				A09CDC8E15AA3CFC0036AC53 /* LLNBSDSocketController.m in Sources */,
+				A09CDC9215AA3F210036AC53 /* LLNNetworkingResult.m in Sources */,
+				A09CDCA015ABD1F00036AC53 /* LLNCFNetworkController.m in Sources */,
+				A09CDCA415ABD2430036AC53 /* LLNNetworkingController.m in Sources */,
+				A08E8BDE15B1F5EB009F59F5 /* LLNNSStreamController.m in Sources */,
+				A08E8BE515B20AD0009F59F5 /* NSStream+StreamsToHost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04ACA2015A520B600F4468C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04ACA2115A520B600F4468C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A04ACA2C15A520B600F4468C /* LLNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04ACA2D15A520B600F4468C /* en */,
+			);
+			name = LLNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A04ACA2F15A520B600F4468C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A04ACA3015A520B600F4468C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04ACA3215A520B600F4468C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Low-Level Networking/Low-Level Networking-Prefix.pch";
+				INFOPLIST_FILE = "Low-Level Networking/Low-Level Networking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A04ACA3315A520B600F4468C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Low-Level Networking/Low-Level Networking-Prefix.pch";
+				INFOPLIST_FILE = "Low-Level Networking/Low-Level Networking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04ACA0D15A520B600F4468C /* Build configuration list for PBXProject "Low-Level Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04ACA2F15A520B600F4468C /* Debug */,
+				A04ACA3015A520B600F4468C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04ACA3115A520B600F4468C /* Build configuration list for PBXNativeTarget "Low-Level Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04ACA3215A520B600F4468C /* Debug */,
+				A04ACA3315A520B600F4468C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A04ACA0A15A520B600F4468C /* Project object */;
+}

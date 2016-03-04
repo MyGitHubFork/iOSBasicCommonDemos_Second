@@ -10,3 +10,9 @@
 ![image](https://github.com/huang303513/The-Demo-Of-Common-Study/blob/master/screenShoot/0.jpg)
 
 [自定义CollectionView布局的原理以及解释](http://www.jianshu.com/p/2a62e44d0034)
+
+[如何使用 CoreText 创建一个简单的杂志应用](http://www.oschina.net/translate/how-to-create-a-simple-magazine-app-with-core-text?lang=chs&page=1#)
+
+[基于 CoreText 的排版引擎：基础](http://blog.devtang.com/blog/2015/06/27/using-coretext-1/)
+
+[基于 CoreText 的排版引擎：进阶](http://blog.devtang.com/blog/2015/06/27/using-coretext-2/)
