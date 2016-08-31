@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - LFLiveKit (1.5.2):
+    - CocoaAsyncSocket (~> 7.4.1)
+    - librtmp-iOS (~> 1.1.0)
+    - LMGPUImage (~> 0.1.9)
+  - librtmp-iOS (1.1.0)
+  - LMGPUImage (0.1.9)
+  - Masonry (0.6.4)
+  - MJExtension (3.0.10)
+  - pop (1.0.9)
+  - UIView+Shake (1.1.5)
+  - UIViewController+KeyboardAnimation (1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - LFLiveKit
+  - Masonry
+  - MJExtension
+  - pop (~> 1.0.8)
+  - UIView+Shake
+  - UIViewController+KeyboardAnimation (~> 1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  LFLiveKit: 24e1514bb127a686da54c07ba729b34f7ca96e5b
+  librtmp-iOS: bfe6a2978e01ac97160ede5d3ccde9e3c1d1ee58
+  LMGPUImage: 8e2e5d0f7065953eb7812de842db4c87d59abf09
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  UIView+Shake: 2d2185006d38ee5daed07f14c0989f703f86682f
+  UIViewController+KeyboardAnimation: 5beaa558cabe3353c37fdd5476c68dac8dc507d5
+
+COCOAPODS: 0.39.0
