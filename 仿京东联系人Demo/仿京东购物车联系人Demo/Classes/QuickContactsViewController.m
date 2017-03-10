@@ -234,7 +234,7 @@ enum TableRowSelected
 -(void)showPersonViewController
 {
 	// Search for the person named "Appleseed" in the address book
-	NSArray *people = (NSArray *)CFBridgingRelease(ABAddressBookCopyPeopleWithName(self.addressBook, CFSTR("Appleseed")));
+	NSArray *people = (NSArray *)CFBridgingRelease(ABAddressBookCopyPeopleWithName(self.addressBook, CFSTR("黄")));
 	// Display "Appleseed" information if found in the address book 
 	if ((people != nil) && [people count])
 	{
@@ -260,14 +260,133 @@ enum TableRowSelected
 
 #pragma mark Create a new person
 // Called when users tap "Create New Contact" in the application. Allows users to create a new contact.
+#warning http://blog.csdn.net/liulushi_1988/article/details/9902845
+#warning http://www.cnblogs.com/cpcpc/archive/2012/07/17/2594959.html
 -(void)showNewPersonViewController
 {
 	ABNewPersonViewController *picker = [[ABNewPersonViewController alloc] init];
 	picker.newPersonViewDelegate = self;
-	
+//	ABRecordRef
+    // 初始化一个ABAddressBookRef对象，使用完之后需要进行释放，
+    // 这里使用CFRelease进行释放
+    // 相当于通讯录的一个引用
+    //ABAddressBookRef addressBook = ABAddressBookCreate();
+    // 新建一个联系人
+    // ABRecordRef是一个属性的集合，相当于通讯录中联系人的对象
+    // 联系人对象的属性分为两种：
+    // 只拥有唯一值的属性和多值的属性。
+    // 唯一值的属性包括：姓氏、名字、生日等。
+    // 多值的属性包括:电话号码、邮箱等。
+    ABRecordRef person = ABPersonCreate();
+    NSString *firstName = @"黄";
+    NSString *lastName = @"成都";
+    NSDate *birthday = [NSDate date];
+    // 电话号码数组
+    NSArray *phones = [NSArray arrayWithObjects:@"123",@"456", nil];
+    // 电话号码对应的名称
+    NSArray *labels = [NSArray arrayWithObjects:@"iphone",@"home", nil];
+    // 保存到联系人对象中，每个属性都对应一个宏，例如：kABPersonFirstNameProperty
+    // 设置firstName属性
+    ABRecordSetValue(person, kABPersonFirstNameProperty, (__bridge CFStringRef)firstName, NULL);
+    // 设置lastName属性
+    ABRecordSetValue(person, kABPersonLastNameProperty, (__bridge CFStringRef) lastName, NULL);
+    // 设置birthday属性
+    ABRecordSetValue(person, kABPersonBirthdayProperty, (__bridge CFDateRef)birthday, NULL);
+    // ABMultiValueRef类似是Objective-C中的NSMutableDictionary
+    ABMultiValueRef mv = ABMultiValueCreateMutable(kABMultiStringPropertyType);
+    // 添加电话号码与其对应的名称内容
+    for (NSUInteger i = 0; i < [phones count]; i ++) {
+        ABMultiValueIdentifier mi = ABMultiValueAddValueAndLabel(mv, (__bridge CFStringRef)[phones objectAtIndex:i], (__bridge CFStringRef)[labels objectAtIndex:i], &mi);
+    }
+    // 设置phone属性
+    ABRecordSetValue(person, kABPersonPhoneProperty, mv, NULL);
+    //设置邮箱
+    mv = ABMultiValueCreateMutable(kABMultiStringPropertyType);
+    ABMultiValueAddValueAndLabel(mv, @"annkey@qq.con", kABWorkLabel, NULL);
+     ABRecordSetValue(person, kABPersonEmailProperty, mv, NULL);
+    // 释放该数组
+    if (mv) {
+        CFRelease(mv);
+    }
+    picker.displayedPerson = person;
+    // 将新建的联系人添加到通讯录中
+    //ABAddressBookAddRecord(picker.addressBook, person, NULL);
+    // 保存通讯录数据
+    //ABAddressBookSave(picker.addressBook, NULL);
+    // 释放通讯录对象的引用
+//    if (addressBook) {
+//        CFRelease(addressBook);
+//    }
+    
+  //=====================================================
+//    ABAddressBookRef adbk= picker.addressBook;   //ABAddressBookCreate();//获取本地通讯录数据库
+////    ABRecordRef moi=NULL;//联系人
+//    ABRecordRef annkey=ABPersonCreate();//创建联系人
+//    //设置联系人的值
+//    ABRecordSetValue(annkey,kABPersonFirstNameProperty, @"黄", NULL);
+//    ABRecordSetValue(annkey,kABPersonLastNameProperty, @"成都", NULL);
+//    //创建多值属性
+//    ABMutableMultiValueRef addr=ABMultiValueCreateMutable(kABStringPropertyType);
+//    
+//    //增加属性名和属性值，属性名为kABHomeLabel
+//    int32_t number = 342342342342;
+//    ABMultiValueAddValueAndLabel(addr, @"annkey@qq.con", kABWorkLabel, NULL);
+////    ABMultiValueAddValueAndLabel(addr, @(number), kABPersonFirstNamePhoneticProperty, NULL);
+//    ABMultiValueAddValueAndLabel(addr, @"1464564565", kABPersonPhoneMobileLabel, NULL);
+//    //设置联系人的多值邮箱属性
+//    ABRecordSetValue(annkey, kABPersonEmailProperty, addr, NULL);
+//    
+//    ABAddressBookAddRecord(adbk, annkey, NULL); //增加联系人
+//    //ABAddressBookSave(adbk, NULL);//保存联系人
+//    picker.displayedPerson = annkey;
+//    CFRelease(addr);
+//    CFRelease(annkey);//，即使是在arc机制里，c对象仍需手动释放
+    //========================
+//    CFArrayRef sams=ABAddressBookCopyPeopleWithName(adbk, (CFStringRef)@"黄");//联系人数组，可能存在多个同名的联系人，需要通过其他属性来判断具体是哪个
+//    for (CFIndex ix=0; ix<CFArrayGetCount(sams); ix++) {
+//        // 从联系人数组多个sam中读取
+//        ABRecordRef sam=CFArrayGetValueAtIndex(sams, ix);
+//        //  获取联系人的名属性
+//        CFStringRef last=ABRecordCopyValue(sam, kABPersonLastNameProperty);
+//        NSLog(@" is find %@",last);
+//        //找到符合条件的联系人
+//        if (last&&CFStringCompare(last, (CFStringRef)@"annkey", 0)==0) {
+//            moi=sam;
+//        }
+//        if (last) {
+//            CFRelease(last);  //c对象需手动释放
+//        }
+//    }
+//    if (NULL==moi) {
+//        CFRelease(sams);
+//        CFRelease(adbk);//c对象需手动释放
+//        return;
+//    }
+//    //获取联系人的邮件属性，初始化为多值
+//    ABMultiValueRef emails=ABRecordCopyValue(moi, kABPersonEmailProperty);
+//    if (NULL==emails) {
+//        NSLog(@"emails is null");
+//    }
+//    for (CFIndex ix=0; ix<ABMultiValueGetCount(emails); ix++) {
+//        //联系人的属性名和属性值
+//        CFStringRef labe1=ABMultiValueCopyLabelAtIndex(emails, ix);
+//        CFStringRef value=ABMultiValueCopyValueAtIndex(emails, ix);
+//        NSLog(@"i have a %@ address I%@",labe1,value);
+//        CFRelease(labe1);
+//        CFRelease(value);
+//    }
+//    NSLog(@"emails is null2");
+//    CFRelease(emails);
+//    CFRelease(sams);
+//    CFRelease(adbk);
+    
 	UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:picker];
     [self presentViewController:navigation animated:YES completion:nil];
 }
+
+
+
+
 
 #pragma mark Add data to an existing person
 // Called when users tap "Edit Unknown Contact" in the application. 
