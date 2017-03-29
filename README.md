@@ -3,6 +3,7 @@
 
 //===========自定义各种弹出框===========</br>
 ![如何准确判断 WebView 加载完成](http://www.cocoachina.com/ios/20170314/18881.html)</br>
+![使用WKWebView替换UIWebView](http://www.jianshu.com/p/6ba2507445e4)</br>
 ![image](https://github.com/huang303513/The-Demo-Of-Common-Study/blob/master/screenShoot/%E6%97%A5%E5%8E%86%E9%80%89%E6%8B%A9.gif)
 
 [各种加密解密方式的实现GBEncodeTool](https://github.com/mokey1422/GBEncodeTool)
